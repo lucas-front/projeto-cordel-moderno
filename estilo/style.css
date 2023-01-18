@@ -53,33 +53,29 @@ main > section {
     font-size: 3.5vw;
 }
 
-section.parallax01 {
-    background: url('../imagens/background001.jpg') fixed center center;
-    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.473);
+section > p {
+    padding-bottom: 2em;
 }
 
-p.estrofe02 {
+section.img01 {
+    background: url('../imagens/background001.jpg') fixed right center;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.411)
+}
+
+section.img02 {
+    background: url('../imagens/background002.jpg') fixed center center;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.411)
+}
+
+#estrofeimg {
     display: inline-block;
-    margin: 60px 0px 60px 30px;
     padding: 5px;
     color: white;
     border: 1px solid #001200 ;
     background-color: rgba(0, 0, 0, 0.582);
-}
-
-section.parallax02 {
-    background: url('../imagens/background002.jpg') fixed center center;
-    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.473);
-}
-
-p.estrofe05 {
-    color: white;
-    display: inline-block;
-    max-width: 580px;
-    margin: 60px 0px 60px 30px;
-    padding: 5px;
-    border: 1px solid #575C4E ;
-    background-color: rgba(0, 0, 0, 0.39);
+    text-shadow: 1px 1px 0px black;
 }
 
 footer {
